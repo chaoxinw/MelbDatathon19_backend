@@ -16,3 +16,14 @@ POST https://sugeromelbdata.com:5000/yield_estimation
 This will return the estimated yield for a given sugarcane region. 
 
 ### 2. Forecast future sugarcane NDVI
+```http
+POST https://sugeromelbdata.com:5000/forecast
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `futureDate` | `string` | **Required**. A date in the future. |
+| `drought` | `boolean` | **Required**. Whether there would be drought. |
+
+The timeseries machine learning model utilises a technique called sliding window. 
+This will return the predicted sugarcane NDVI value for the given area (Proserpine).
