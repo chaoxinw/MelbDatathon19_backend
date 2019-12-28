@@ -26,4 +26,5 @@ POST https://sugeromelbdata.com:5000/forecast
 | `drought` | `boolean` | **Required**. Whether there would be drought. |
 
 The timeseries machine learning model utilises a technique called sliding window. 
+
 This will return the predicted sugarcane NDVI value for the given area (Proserpine).
