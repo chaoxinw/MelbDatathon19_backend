@@ -1,4 +1,4 @@
-# MelbDatathon19_backend
+# MelbDatathon19 Backend
 Backend for Melbourne Datathon 2019
 
 ## Two functions
